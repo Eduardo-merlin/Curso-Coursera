@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.content_wrapper {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.content_header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(148, 50, 231);
+  color: white;
+  padding-top: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 1rem;
+}
+
+.title_name {
+  font-size: 3rem;
+}
+
+.content_title {
+  width: 20rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.contact_email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+.icon_email {
+  background-image: url(../img/mail-1454731_640.webp);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.contact_phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+.icon_phone {
+  background-image: url(../img/Phone_icon.png);
+  background-color: white;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.content_buttons {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 4rem;
+  column-gap: 3rem;
+}
+
+.buttons {
+  width: 20%;
+  border: solid yellow 2px;
+  width: 10rem;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  opacity: inherit;
+}
+
+.buttons:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* esta es la parte del About Me */
+
+.content_project {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5rem;
+  padding: 4rem;
+}
+
+.about_me {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.img_aboutMe {
+  width: 30rem;
+  height: 30rem;
+}
+
+.about_info {
+  width: 40%;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.presentation_title {
+  color: rgb(148, 50, 231);
+  font-family: "Sour Gummy", sans-serif;
+}
+
+.skills_content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.title_skills {
+  font-size: 4rem;
+  color: rgb(148, 50, 231);
+}
+
+.content_skills {
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3rem;
+  column-gap: 3rem;
+}
+
+.skill {
+  border: solid black 1px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+.img_html {
+  width: 4rem;
+  height: 4rem;
+  background-image: url(../img/logos/png-clipart-html-logo-html5-logo-icons-logos-emojis-tech-companies-thumbnail.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img_js {
+  width: 4rem;
+  height: 4rem;
+  background-image: url(../img/logos/png-transparent-javascript-logo-html-javascript-logo-angle-text-rectangle-thumbnail.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img_react {
+  width: 4rem;
+  height: 4rem;
+  background-image: url(../img/logos/png-transparent-react-computer-icons-redux-javascript-others-logo-symmetry-nodejs-thumbnail.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img_css {
+  width: 4rem;
+  height: 4rem;
+  background-image: url(../img/logos/png-transparent-web-development-cascading-style-sheets-css3-html-world-wide-web-blue-angle-web-design-thumbnail.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img_node {
+  width: 4rem;
+  height: 4rem;
+  background-image: url(../img/logos/png-transparent-node-js-javascript-software-developer-express-js-computer-software-node-js-logo-nodejs-software-development-thumbnail.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img_sql {
+  width: 4rem;
+  height: 4rem;
+  background-image: url(../img/logos/png-clipart-mysql-mysql.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img_py {
+  width: 4rem;
+  height: 4rem;
+  background-image: url(../img/logos/kisspng-python-computer-icons-programming-language-executa-1713885634631.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img_ang {
+  width: 4rem;
+  height: 4rem;
+  background-image: url(../img/logos/avfx2yube.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img_mongo {
+  width: 4rem;
+  height: 4rem;
+  background-image: url(../img/logos/png-transparent-mongodb-plain-wordmark-logo-icon-thumbnail.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.skill_p {
+  font-size: 2rem;
+}
+
+.p_tiempo {
+  font-size: 2rem;
+}
+
+/* projects */
+
+.projects_content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.title_pro {
+  font-size: 4rem;
+  color: rgb(148, 50, 231);
+}
+
+.ul_content {
+  width: 100%;
+  padding-left: 6rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.title_p {
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+.p_description {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-left: 2rem;
+}
+
+.content_recomendation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  position: relative;
+}
+
+.title_recomendation {
+  font-size: 4rem;
+  color: rgb(148, 50, 231);
+}
+
+.title_newre {
+  width: 40%;
+  font-size: 3rem;
+}
+
+.recomendation_description {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 6rem;
+  row-gap: 4rem;
+  padding-left: 10rem;
+}
+
+.pa_description {
+  width: 22%;
+  border: solid black 1px;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+.new_reomendation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10rem;
+  row-gap: 4rem;
+}
+
+.input_name {
+  width: 40%;
+  font-size: 1.5rem;
+  border-radius: 0.4rem;
+  padding: 0.2rem;
+}
+
+.tnew_recomendation {
+  width: 40%;
+  height: 20rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  font-family: "Jost", sans-serif;
+}
+
+.submit_recomendation {
+  width: 10%;
+  padding: 1rem;
+  color: rgb(148, 50, 231);
+  border: rgb(148, 50, 231) solid 2px;
+  background-color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.return_top {
+  width: 4rem;
+  height: 4rem;
+  position: fixed;
+  right: 5rem;
+  bottom: 5rem;
+  background-image: url(../img/logos/png-transparent-purple-arrow-icon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  rotate: -90deg;
+  border-radius: 50%;
+}
+
+.dialog-body {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100vw;
+  min-height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.show_modal {
+  display: flex;
+}
+
+.content_message {
+  width: 22%;
+  height: 16rem;
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 4rem;
+  background-color: rgb(190, 138, 235);
+  border-radius: 0.5rem;
+  font-weight: bold;
+  padding: 1.5rem;
+}
+
+.button_ok {
+  width: 40%;
+  background-color: white;
+  color: rgb(190, 138, 235);
+  padding: 0.5rem;
+  border: solid 2px rgb(147, 45, 236);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
