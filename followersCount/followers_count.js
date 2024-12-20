@@ -1,4 +1,7 @@
 let count = 0;
+let reiniciar = document.getElementById("reiniciar");
+
+reiniciar.addEventListener("click", reiniciarCount);
 
 function increaseCount() {
   count++; //incrementa el conteo en 1
@@ -16,4 +19,9 @@ function checkCountValue() {
   } else if (count === 20) {
     alert("¡Tu publicacion de instagram gano 20 seguidores! ¡Sigue así!");
   }
+}
+
+function reiniciarCount() {
+  document.getElementById("countDisplay").innerHTML = 0;
+  alert("El contador se reinicio");
 }
