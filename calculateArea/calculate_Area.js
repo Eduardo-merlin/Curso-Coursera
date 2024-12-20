@@ -7,6 +7,6 @@ function calculateArea() {
 
   let area = length * width;
   document.getElementById(
-    "resultado"
+    "result"
   ).innerText = `The area of the rectagle is: ${area} `;
 }
